@@ -33,3 +33,9 @@ bool yaw_active
 bool depth_active
 bool altitude_active
 
+# PID Gains
+float64[3] roll_pid_gains
+float64[3] pitch_pid_gains
+float64[3] yaw_pid_gains
+float64[3] depth_pid_gains
+float64[3] altitude_pid_gains
