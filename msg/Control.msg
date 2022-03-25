@@ -16,12 +16,20 @@ uint8 mode
 uint8 gripper1_status
 uint8 gripper2_status
 
-# Light intensity [%] 
+# Light intensity level 
 uint8 light_intensity   
 
-# Setpoints
-float64 depth_setpoint
-float64 altitude_setpoint
+# Controller Setpoints
 float64 roll_setpoint
 float64 pitch_setpoint
 float64 yaw_setpoint
+float64 depth_setpoint
+float64 altitude_setpoint
+
+# Controller Status
+bool roll_active
+bool pitch_active
+bool yaw_active
+bool depth_active
+bool altitude_active
+
