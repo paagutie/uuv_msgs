@@ -39,3 +39,9 @@ float64[3] pitch_pid_gains
 float64[3] yaw_pid_gains
 float64[3] depth_pid_gains
 float64[3] altitude_pid_gains
+
+#ROSbag Status
+bool rosbag_record
+
+#MicroROS 
+bool reset_ac_module
